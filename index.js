@@ -1,8 +1,8 @@
 const toggle = document.querySelector(".toggle")
-const navMenu = document.querySelector(".nav-Menu")
-newFunction();
+const navmenu = document.querySelector(".nav-menu")
+new Function();
 function newFunction(){
     toggle.addEventListener("click", () => {
-        navMenu.classList.toggle("nav-menvi");
+        navmenu.classList.toggle("nav-menvi");
     });
 } 
